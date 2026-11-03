@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Our Album ♥</title>
+<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Dancing+Script:wght@500;700&family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=Caveat:wght@500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/common.css">
+<link rel="stylesheet" href="css/album.css">
+</head>
+<body>
+<canvas id="bg"></canvas>
+<canvas id="magic"></canvas>
+<nav class="nav">
+  <a href="index.html">Home</a>
+  <a href="album.html" class="active">Our Album</a>
+  <a href="poems.html">Poem Scrapbook</a>
+</nav>
+
+<main class="stage" id="stage">
+  <div class="bookwrap" id="bookwrap">
+    <div class="book" id="book"></div>
+  </div>
+  <div class="ground"></div>
+</main>
+
+<div class="controls">
+  <button id="prev" aria-label="Previous page">‹</button>
+  <span id="indicator">Tap the cover to open ♡</span>
+  <button id="next" aria-label="Next page">›</button>
+</div>
+
+<script src="js/common.js"></script>
+<script src="js/album.js"></script>
+</body>
+</html>

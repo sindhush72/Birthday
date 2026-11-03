@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Poem Scrapbook ♥</title>
+<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Dancing+Script:wght@500;700&family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=Caveat:wght@500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/common.css">
+<link rel="stylesheet" href="css/poems.css">
+</head>
+<body>
+<canvas id="bg"></canvas>
+<nav class="nav">
+  <a href="index.html">Home</a>
+  <a href="album.html">Our Album</a>
+  <a href="poems.html" class="active">Poem Scrapbook</a>
+</nav>
+
+<header class="head">
+  <h1>Love Notes</h1>
+  <p>little poems, pinned just for you ♡</p>
+</header>
+
+<main class="board" id="board"></main>
+
+<div class="lightbox" id="lb">
+  <button class="x" id="lbClose" aria-label="Close">×</button>
+  <button class="arrow l" id="lbPrev" aria-label="Previous">‹</button>
+  <div class="lbpaper"><img id="lbImg" alt="Poem"><div class="lbbar"><span id="lbNum"></span> <a id="lbPdf" target="_blank" rel="noopener">open PDF ↗</a></div></div>
+  <button class="arrow r" id="lbNext" aria-label="Next">›</button>
+</div>
+
+<script src="js/common.js"></script>
+<script src="js/poems.js"></script>
+</body>
+</html>
